@@ -37,27 +37,27 @@ Le mot de passe est haché avec bcrypt, les variables sensibles sont gérées vi
 ⚙️ Installation et exécution
 
 ### 1. Cloner le dépôt
-git clone https://github.com/bozzomarion59-coder/Gestion_Utilisateurs.git
-cd Gestion_Utilisateurs
+- git clone https://github.com/bozzomarion59-coder/Gestion_Utilisateurs.git
+- cd Gestion_Utilisateurs
 
 ### 2. Configuration BackEnd 
-cd le_dossier_ou_se_trouve_ton_back
-npm install
+- cd le_dossier_ou_se_trouve_ton_back
+- npm install
 
 ### Crée un fichier .env à la racine du dossier backend avec les variables suivantes
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=ton_mot_de_passe
-DB_NAME=GestionUtilisateurs
-PORT=5000
+- DB_HOST=localhost
+- DB_USER=root
+- DB_PASSWORD=ton_mot_de_passe
+- DB_NAME=GestionUtilisateurs
+- PORT=5000
 
 ### Lancer le serveur:
 npm start ou nodemon selon votre configuration
 
 ### 3. Configuration du FrontEnd 
-cd le_dossier_ou_se_trouve_votre_front
-npm install
-npm run dev ou npm start selon votre setup
+- cd le_dossier_ou_se_trouve_votre_front
+- npm install
+- npm run dev ou npm start selon votre setup
 
 ✅ Fonctionnalités principales :
 - Création d’un utilisateur via formulaire
